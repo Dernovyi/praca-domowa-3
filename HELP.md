@@ -10,3 +10,8 @@ do modyfikowania pozycji
 do modyfikowania jednego z pól pozycji
 do usuwania jeden pozycji
 Przy starcie aplikacji mają dodawać się 3 pozycje.
+
+Dla ambitnych:
+
+dodaj obsługę Swgger UI
+zaimplementuj HATEOAS

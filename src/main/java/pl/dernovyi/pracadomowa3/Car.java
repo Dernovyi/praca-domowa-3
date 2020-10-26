@@ -1,9 +1,11 @@
 package pl.dernovyi.pracadomowa3;
 
 
-import org.springframework.hateoas.ResourceSupport;
+import org.springframework.hateoas.RepresentationModel;
 
-public class Car  extends ResourceSupport {
+public class Car  extends RepresentationModel<Car> {
+
+
     private Long id;
     private String  mark;
     private String  model;
@@ -20,7 +22,8 @@ public class Car  extends ResourceSupport {
     }
 
 
-    public Long geId() {
+
+    public Long getId() {
         return id;
     }
 
