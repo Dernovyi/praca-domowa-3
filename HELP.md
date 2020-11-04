@@ -1,17 +1,2 @@
-Zadanie podstawowe:
-Napisz REST API dla listy pojazdów. Pojazd będzie miał pola: id, mark, model, color.
-API które będzie obsługiwało metody webowe:
 
-do pobierania wszystkich pozycji
-do pobierania elementu po jego id
-do pobierania elementów w określonym kolorze (query)
-do dodawania pozycji
-do modyfikowania pozycji
-do modyfikowania jednego z pól pozycji
-do usuwania jeden pozycji
-Przy starcie aplikacji mają dodawać się 3 pozycje.
-
-Dla ambitnych:
-
-dodaj obsługę Swgger UI
-zaimplementuj HATEOAS
+1. Napisz aplikacje, która z poziomu GUI pozwala na dodawanie i wyświetlanie pojazdów znajdujących się w bazie danych. Pojazd ma mieć pola, które umożliwią przechowanie marki, modelu, koloru oraz daty produkcji. Stwórz formularz z poziomu, którego będzie możliwe na wyświetlanie pojazdów z konkretnego przedziału dat. Np. wyświetlenie wszystkich pojazdów w bazie, których data produkcji jest w zakresie 2010 – 2015.
